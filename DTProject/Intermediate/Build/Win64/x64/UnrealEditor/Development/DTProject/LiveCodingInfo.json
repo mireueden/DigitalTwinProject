@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DTProject.gen.cpp.obj": [
+			"DTProject.init.gen.cpp.obj",
+			"InteractiveActorBase.gen.cpp.obj",
+			"InteractiveActorInterface.gen.cpp.obj",
+			"InteractiveComponentBase.gen.cpp.obj",
+			"ObjectEnum.gen.cpp.obj",
+			"TestActor.gen.cpp.obj"
+		]
+	}
+}

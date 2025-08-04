@@ -1,0 +1,4 @@
+Breadcrumbs 'RHIThread'
+ - UpdateAllPrimitiveSceneInfos
+ - RenderGraphExecute - UpdateAllPrimitiveSceneInfos
+ - Frame 313841

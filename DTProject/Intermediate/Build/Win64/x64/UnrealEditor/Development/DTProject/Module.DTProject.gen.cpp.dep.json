@@ -1,0 +1,29 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\workspace\\dtproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dtproject\\module.dtproject.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\workspace\\dtproject\\intermediate\\build\\win64\\x64\\dtprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\workspace\\dtproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dtproject\\definitions.dtproject.h",
+            "d:\\workspace\\dtproject\\intermediate\\build\\win64\\unrealeditor\\inc\\dtproject\\uht\\dtproject.init.gen.cpp",
+            "d:\\workspace\\dtproject\\intermediate\\build\\win64\\unrealeditor\\inc\\dtproject\\uht\\interactiveactorbase.gen.cpp",
+            "d:\\workspace\\dtproject\\source\\dtproject\\actor\\interactiveactorbase.h",
+            "d:\\workspace\\dtproject\\source\\dtproject\\actor\\interactiveactorinterface.h",
+            "d:\\workspace\\dtproject\\intermediate\\build\\win64\\unrealeditor\\inc\\dtproject\\uht\\interactiveactorinterface.generated.h",
+            "d:\\workspace\\dtproject\\intermediate\\build\\win64\\unrealeditor\\inc\\dtproject\\uht\\interactiveactorbase.generated.h",
+            "d:\\workspace\\dtproject\\intermediate\\build\\win64\\unrealeditor\\inc\\dtproject\\uht\\interactiveactorinterface.gen.cpp",
+            "d:\\workspace\\dtproject\\intermediate\\build\\win64\\unrealeditor\\inc\\dtproject\\uht\\interactivecomponentbase.gen.cpp",
+            "d:\\workspace\\dtproject\\source\\dtproject\\actor\\interactivecomponentbase.h",
+            "d:\\workspace\\dtproject\\intermediate\\build\\win64\\unrealeditor\\inc\\dtproject\\uht\\interactivecomponentbase.generated.h",
+            "d:\\workspace\\dtproject\\intermediate\\build\\win64\\unrealeditor\\inc\\dtproject\\uht\\objectenum.gen.cpp",
+            "d:\\workspace\\dtproject\\source\\dtproject\\actor\\objectenum.h",
+            "d:\\workspace\\dtproject\\intermediate\\build\\win64\\unrealeditor\\inc\\dtproject\\uht\\objectenum.generated.h",
+            "d:\\workspace\\dtproject\\intermediate\\build\\win64\\unrealeditor\\inc\\dtproject\\uht\\testactor.gen.cpp",
+            "d:\\workspace\\dtproject\\source\\dtproject\\test\\testactor.h",
+            "d:\\workspace\\dtproject\\intermediate\\build\\win64\\unrealeditor\\inc\\dtproject\\uht\\testactor.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

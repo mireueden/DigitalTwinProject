@@ -72,3 +72,12 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+#Fabs Folder
+DTProject/Content/ArchVizInteriorVol3/*
+DTProject/Content/Deko_MatrixDemo/*
+DTProject/Content/Modern_House_V1/*
+DTProject/Content/ModernHouse/*
+DTProject/Content/MOUT_Civilian/*
+DTProject/Content/Safe_House/*
+DTProject/Content/Scene_Warehouse/*

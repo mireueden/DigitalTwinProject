@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\workspace\\dtproject\\source\\dtproject\\actor\\interactivecomponentbase.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\workspace\\dtproject\\intermediate\\build\\win64\\x64\\dtprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\workspace\\dtproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dtproject\\definitions.dtproject.h",
+            "d:\\workspace\\dtproject\\source\\dtproject\\actor\\interactivecomponentbase.h",
+            "d:\\workspace\\dtproject\\intermediate\\build\\win64\\unrealeditor\\inc\\dtproject\\uht\\interactivecomponentbase.generated.h",
+            "d:\\workspace\\dtproject\\source\\dtproject\\actor\\objectenum.h",
+            "d:\\workspace\\dtproject\\intermediate\\build\\win64\\unrealeditor\\inc\\dtproject\\uht\\objectenum.generated.h",
+            "d:\\workspace\\dtproject\\source\\dtproject\\actor\\interactiveactorinterface.h",
+            "d:\\workspace\\dtproject\\intermediate\\build\\win64\\unrealeditor\\inc\\dtproject\\uht\\interactiveactorinterface.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
