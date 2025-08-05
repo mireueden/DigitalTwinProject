@@ -26,7 +26,6 @@ AInteractiveActorBase::AInteractiveActorBase()
 void AInteractiveActorBase::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
@@ -34,21 +33,5 @@ void AInteractiveActorBase::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-}
-
-void AInteractiveActorBase::TurnOn_Implementation()
-{
-}
-
-void AInteractiveActorBase::TurnOff_Implementation()
-{
-}
-
-void AInteractiveActorBase::BeginFocus_Implementation()
-{
-}
-
-void AInteractiveActorBase::EndFocus_Implementation()
-{
 }
 

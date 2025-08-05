@@ -13,7 +13,7 @@ class UBoxComponent;
 class UInteractiveComponentBase;
 
 UCLASS()
-class DTPROJECT_API AInteractiveActorBase : public AActor, public IInteractiveActorInterface
+class DTPROJECT_API AInteractiveActorBase : public AActor//, public IInteractiveActorInterface
 {
 	GENERATED_BODY()
 	
@@ -40,8 +40,4 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 
-	virtual void TurnOn_Implementation() override;
-	virtual void TurnOff_Implementation() override;
-	virtual void BeginFocus_Implementation() override;
-	virtual void EndFocus_Implementation() override;
 };

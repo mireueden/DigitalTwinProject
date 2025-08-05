@@ -3,6 +3,8 @@
 
 #include "../Actor/InteractiveComponentBase.h"
 #include "ObjectEnum.h"
+#include "../Data/ObjectDataAsset.h"
+#include "../Data/ObjectData.h"
 #include "InteractiveActorInterface.h"
 
 
@@ -39,33 +41,27 @@ void UInteractiveComponentBase::TickComponent(float DeltaTime, ELevelTick TickTy
 	// ...
 }
 
-void UInteractiveComponentBase::TurnOn()
-{
-}
 
-void UInteractiveComponentBase::TurnOff()
-{
-}
-
-
-void UInteractiveComponentBase::BeginFocus_Implementation()
-{
-}
-
-void UInteractiveComponentBase::EndFocus_Implementation()
-{
-}
-
-FString UInteractiveComponentBase::GetComponentInfo_Implementation()
+FString UInteractiveComponentBase::GetComponentInfo()
 {
 	return FString::Printf(TEXT("%s"), *GetNameSafe(this));
 }
 
-EObjectEnum UInteractiveComponentBase::GetObjectType() const
+EObjectType UInteractiveComponentBase::GetActorType() const
 {
-	if (true) //TwinDataAsset)
+	if (ObjectDataAsset) 
 	{
-		return EObjectEnum::ABC; //TwinDataAsset->Type;
+		return ObjectDataAsset->Type;
 	}
-	return EObjectEnum::None;
+	return EObjectType::None;
+}
+
+FText UInteractiveComponentBase::GetActorName()
+{
+	return ObjectDataAsset->DisplayName;
+}
+
+FText UInteractiveComponentBase::GetObjectDescription()
+{
+	return ObjectDataAsset->Description;
 }

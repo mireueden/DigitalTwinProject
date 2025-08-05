@@ -306,14 +306,14 @@ DEFINE_VTABLE_PTR_HELPER_CTOR(UInteractiveActorInterface);
 // ********** End Interface UInteractiveActorInterface *********************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_workspace_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h__Script_DTProject_Statics
+struct Z_CompiledInDeferFile_FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h__Script_DTProject_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_UInteractiveActorInterface, UInteractiveActorInterface::StaticClass, TEXT("UInteractiveActorInterface"), &Z_Registration_Info_UClass_UInteractiveActorInterface, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInteractiveActorInterface), 2652353700U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_workspace_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h__Script_DTProject_3668713772(TEXT("/Script/DTProject"),
-	Z_CompiledInDeferFile_FID_workspace_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h__Script_DTProject_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_workspace_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h__Script_DTProject_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h__Script_DTProject_3668713772(TEXT("/Script/DTProject"),
+	Z_CompiledInDeferFile_FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h__Script_DTProject_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h__Script_DTProject_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************

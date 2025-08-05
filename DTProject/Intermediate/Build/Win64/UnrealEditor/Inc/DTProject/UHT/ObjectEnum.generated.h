@@ -18,17 +18,54 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_workspace_DTProject_Source_DTProject_Actor_ObjectEnum_h
+#define CURRENT_FILE_ID FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_ObjectEnum_h
 
-// ********** Begin Enum EObjectEnum ***************************************************************
-#define FOREACH_ENUM_EOBJECTENUM(op) \
-	op(EObjectEnum::None) \
-	op(EObjectEnum::ABC) \
-	op(EObjectEnum::DEF) 
+// ********** Begin Enum EObjectType ***************************************************************
+#define FOREACH_ENUM_EOBJECTTYPE(op) \
+	op(EObjectType::None) \
+	op(EObjectType::ABC) \
+	op(EObjectType::DEF) \
+	op(EObjectType::TV) \
+	op(EObjectType::StandLamp) \
+	op(EObjectType::Microwave) \
+	op(EObjectType::Hood) \
+	op(EObjectType::GasBurner) \
+	op(EObjectType::Oven) \
+	op(EObjectType::kitchenCupboard) \
+	op(EObjectType::ShoeLack) \
+	op(EObjectType::BookShelf) \
+	op(EObjectType::ReadingTable) \
+	op(EObjectType::Bed) \
+	op(EObjectType::Lamp) \
+	op(EObjectType::Computer) \
+	op(EObjectType::Workbench) 
 
-enum class EObjectEnum : uint8;
-template<> struct TIsUEnumClass<EObjectEnum> { enum { Value = true }; };
-template<> DTPROJECT_API UEnum* StaticEnum<EObjectEnum>();
-// ********** End Enum EObjectEnum *****************************************************************
+enum class EObjectType : uint8;
+template<> struct TIsUEnumClass<EObjectType> { enum { Value = true }; };
+template<> DTPROJECT_API UEnum* StaticEnum<EObjectType>();
+// ********** End Enum EObjectType *****************************************************************
+
+// ********** Begin Enum EsaveItem *****************************************************************
+#define FOREACH_ENUM_ESAVEITEM(op) \
+	op(EsaveItem::Box1) \
+	op(EsaveItem::Box2) \
+	op(EsaveItem::Box3) \
+	op(EsaveItem::Box4) \
+	op(EsaveItem::Box5) \
+	op(EsaveItem::Box6) 
+
+enum class EsaveItem : uint8;
+template<> struct TIsUEnumClass<EsaveItem> { enum { Value = true }; };
+template<> DTPROJECT_API UEnum* StaticEnum<EsaveItem>();
+// ********** End Enum EsaveItem *******************************************************************
+
+// ********** Begin Enum EValueType ****************************************************************
+#define FOREACH_ENUM_EVALUETYPE(op) \
+	op(EValueType::SaveCount) 
+
+enum class EValueType : uint8;
+template<> struct TIsUEnumClass<EValueType> { enum { Value = true }; };
+template<> DTPROJECT_API UEnum* StaticEnum<EValueType>();
+// ********** End Enum EValueType ******************************************************************
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

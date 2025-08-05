@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\workspace\\dtproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dtproject\\permoduleinline.gen.cpp",
+        "Source": "d:\\workspace\\digitaltwinproject\\dtproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dtproject\\permoduleinline.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\workspace\\dtproject\\intermediate\\build\\win64\\x64\\dtprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "PCH": "d:\\workspace\\digitaltwinproject\\dtproject\\intermediate\\build\\win64\\x64\\dtprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
         "Includes": [
-            "d:\\workspace\\dtproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dtproject\\definitions.dtproject.h",
+            "d:\\workspace\\digitaltwinproject\\dtproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dtproject\\definitions.dtproject.h",
             "d:\\epicgames\\ue_5.6\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
         ],
         "ImportedModules": [],

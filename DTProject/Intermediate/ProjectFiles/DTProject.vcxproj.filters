@@ -60,11 +60,32 @@
     <ClInclude Include="..\..\Source\DTProject\Actor\InteractiveComponentBase.h">
       <Filter>Source\DTProject\Actor</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\DTProject\Actor\InterativeCharacter.cpp">
+      <Filter>Source\DTProject\Actor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DTProject\Actor\InterativeCharacter.h">
+      <Filter>Source\DTProject\Actor</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\DTProject\Actor\ObjectEnum.cpp">
       <Filter>Source\DTProject\Actor</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\DTProject\Actor\ObjectEnum.h">
       <Filter>Source\DTProject\Actor</Filter>
+    </ClInclude>
+    <Filter Include="Source\DTProject\Data">
+      <UniqueIdentifier>{951EE0C4-D2FA-3DD4-B6C4-A95DD53EFAB9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\DTProject\Data\ObjectData.cpp">
+      <Filter>Source\DTProject\Data</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DTProject\Data\ObjectData.h">
+      <Filter>Source\DTProject\Data</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DTProject\Data\ObjectDataAsset.cpp">
+      <Filter>Source\DTProject\Data</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DTProject\Data\ObjectDataAsset.h">
+      <Filter>Source\DTProject\Data</Filter>
     </ClInclude>
     <Filter Include="Source\DTProject\Test">
       <UniqueIdentifier>{396DDBB8-A7A9-365E-86C5-2334870C6A5E}</UniqueIdentifier>
@@ -74,6 +95,15 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\DTProject\Test\TestActor.h">
       <Filter>Source\DTProject\Test</Filter>
+    </ClInclude>
+    <Filter Include="Source\DTProject\Widget">
+      <UniqueIdentifier>{AB96E9CB-2A7D-360D-85BA-8C3D006091BB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\DTProject\Widget\InfoWidget.cpp">
+      <Filter>Source\DTProject\Widget</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DTProject\Widget\InfoWidget.h">
+      <Filter>Source\DTProject\Widget</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -17,17 +17,17 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Interface UInteractiveActorInterface *******************************************
-#define FID_workspace_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execEndFocus); \
 	DECLARE_FUNCTION(execBeginFocus); \
 	DECLARE_FUNCTION(execTurnOff); \
 	DECLARE_FUNCTION(execTurnOn);
 
 
-#define FID_workspace_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h_13_CALLBACK_WRAPPERS
+#define FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h_13_CALLBACK_WRAPPERS
 DTPROJECT_API UClass* Z_Construct_UClass_UInteractiveActorInterface_NoRegister();
 
-#define FID_workspace_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h_13_ENHANCED_CONSTRUCTORS \
+#define FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h_13_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	DTPROJECT_API UInteractiveActorInterface(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -39,7 +39,7 @@ DTPROJECT_API UClass* Z_Construct_UClass_UInteractiveActorInterface_NoRegister()
 	virtual ~UInteractiveActorInterface() = default;
 
 
-#define FID_workspace_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h_13_GENERATED_UINTERFACE_BODY() \
+#define FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h_13_GENERATED_UINTERFACE_BODY() \
 private: \
 	static void StaticRegisterNativesUInteractiveActorInterface(); \
 	friend struct Z_Construct_UClass_UInteractiveActorInterface_Statics; \
@@ -50,15 +50,15 @@ public: \
 	DECLARE_SERIALIZER(UInteractiveActorInterface)
 
 
-#define FID_workspace_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h_13_GENERATED_BODY \
+#define FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h_13_GENERATED_BODY \
 	PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-	FID_workspace_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h_13_GENERATED_UINTERFACE_BODY() \
-	FID_workspace_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h_13_ENHANCED_CONSTRUCTORS \
+	FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h_13_GENERATED_UINTERFACE_BODY() \
+	FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_workspace_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \
+#define FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \
 protected: \
 	virtual ~IInteractiveActorInterface() {} \
 public: \
@@ -71,13 +71,13 @@ public: \
 	virtual UObject* _getUObject() const { return nullptr; }
 
 
-#define FID_workspace_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h_10_PROLOG
-#define FID_workspace_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h_21_GENERATED_BODY \
+#define FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h_10_PROLOG
+#define FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h_21_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_workspace_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_workspace_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h_13_CALLBACK_WRAPPERS \
-	FID_workspace_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \
+	FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h_13_CALLBACK_WRAPPERS \
+	FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -87,6 +87,6 @@ class UInteractiveActorInterface;
 // ********** End Interface UInteractiveActorInterface *********************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_workspace_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h
+#define CURRENT_FILE_ID FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_InteractiveActorInterface_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

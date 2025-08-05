@@ -1,5 +1,9 @@
-D:\workspace\DTProject\Source\DTProject\Actor\InteractiveActorBase.h
-D:\workspace\DTProject\Source\DTProject\Actor\InteractiveActorInterface.h
-D:\workspace\DTProject\Source\DTProject\Actor\InteractiveComponentBase.h
-D:\workspace\DTProject\Source\DTProject\Actor\ObjectEnum.h
-D:\workspace\DTProject\Source\DTProject\Test\TestActor.h
+D:\workspace\DigitalTwinProject\DTProject\Source\DTProject\Actor\InteractiveActorBase.h
+D:\workspace\DigitalTwinProject\DTProject\Source\DTProject\Actor\InterativeCharacter.h
+D:\workspace\DigitalTwinProject\DTProject\Source\DTProject\Actor\InteractiveComponentBase.h
+D:\workspace\DigitalTwinProject\DTProject\Source\DTProject\Data\ObjectData.h
+D:\workspace\DigitalTwinProject\DTProject\Source\DTProject\Actor\ObjectEnum.h
+D:\workspace\DigitalTwinProject\DTProject\Source\DTProject\Test\TestActor.h
+D:\workspace\DigitalTwinProject\DTProject\Source\DTProject\Widget\InfoWidget.h
+D:\workspace\DigitalTwinProject\DTProject\Source\DTProject\Actor\InteractiveActorInterface.h
+D:\workspace\DigitalTwinProject\DTProject\Source\DTProject\Data\ObjectDataAsset.h

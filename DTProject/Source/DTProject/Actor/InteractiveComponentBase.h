@@ -7,7 +7,8 @@
 #include "InteractiveComponentBase.generated.h"
 
 enum class EObjectEnum : uint8;
-
+class UObjectDataAsset;
+class UObjectData;
 
 UCLASS(Blueprintable, ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class DTPROJECT_API UInteractiveComponentBase : public UActorComponent
@@ -27,38 +28,43 @@ protected:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 public:	
-	UFUNCTION(BlueprintCallable)
-	virtual void TurnOn();
+	//UFUNCTION(BlueprintCallable)
+	//virtual void TurnOn();
 
-	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable, meta = (DisplayName = "TurnOn"))
-	void ReceiveTurnOn();
+	//UFUNCTION(BlueprintImplementableEvent, BlueprintCallable, meta = (DisplayName = "TurnOn"))
+	//void ReceiveTurnOn();
 
-	UFUNCTION(BlueprintCallable)
-	virtual void TurnOff();
+	//UFUNCTION(BlueprintCallable)
+	//virtual void TurnOff();
 
-	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable, meta = (DisplayName = "TurnOff"))
-	void ReceiveTurnOff();
+	//UFUNCTION(BlueprintImplementableEvent, BlueprintCallable, meta = (DisplayName = "TurnOff"))
+	//void ReceiveTurnOff();
 
 	UFUNCTION(BlueprintPure)
 	FORCEINLINE bool IsWorking() const { return bWorking; }
 public:
-	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
-	void BeginFocus();
-	virtual void BeginFocus_Implementation();
-
-	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
-	void EndFocus();
-	virtual void EndFocus_Implementation();
-
-	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+	UFUNCTION(BlueprintCallable)
 	FString GetComponentInfo();
-	virtual FString GetComponentInfo_Implementation();
 
 public:
 	UFUNCTION(BlueprintPure)
-	EObjectEnum GetObjectType() const;
+	EObjectType GetActorType() const;
 
 	UPROPERTY(VisibleInstanceOnly)
 	bool bWorking;
+
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+	UObjectDataAsset* ObjectDataAsset;
+
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadWrite)
+	UObjectData* ObjectData;
 		
+
+public:
+	UFUNCTION(BlueprintPure ,BlueprintCallable, Category = "Inspectable")
+	FText GetActorName();
+
+	UFUNCTION(BlueprintPure, BlueprintCallable, Category = "Inspectable")
+	FText GetObjectDescription();
 };

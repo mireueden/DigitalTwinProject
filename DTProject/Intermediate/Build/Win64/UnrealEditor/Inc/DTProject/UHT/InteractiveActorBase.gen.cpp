@@ -14,7 +14,6 @@ void EmptyLinkFunctionForGeneratedCodeInteractiveActorBase() {}
 // ********** Begin Cross Module References ********************************************************
 DTPROJECT_API UClass* Z_Construct_UClass_AInteractiveActorBase();
 DTPROJECT_API UClass* Z_Construct_UClass_AInteractiveActorBase_NoRegister();
-DTPROJECT_API UClass* Z_Construct_UClass_UInteractiveActorInterface_NoRegister();
 DTPROJECT_API UClass* Z_Construct_UClass_UInteractiveComponentBase_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_AActor();
 ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
@@ -83,7 +82,6 @@ struct Z_Construct_UClass_AInteractiveActorBase_Statics
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_Component;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
-	static const UECodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AInteractiveActorBase>::IsAbstract,
 	};
@@ -103,9 +101,6 @@ UObject* (*const Z_Construct_UClass_AInteractiveActorBase_Statics::DependentSing
 	(UObject* (*)())Z_Construct_UPackage__Script_DTProject,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AInteractiveActorBase_Statics::DependentSingletons) < 16);
-const UECodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_AInteractiveActorBase_Statics::InterfaceParams[] = {
-	{ Z_Construct_UClass_UInteractiveActorInterface_NoRegister, (int32)VTABLE_OFFSET(AInteractiveActorBase, IInteractiveActorInterface), false },  // 2652353700
-};
 const UECodeGen_Private::FClassParams Z_Construct_UClass_AInteractiveActorBase_Statics::ClassParams = {
 	&AInteractiveActorBase::StaticClass,
 	"Engine",
@@ -113,11 +108,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_AInteractiveActorBase_S
 	DependentSingletons,
 	nullptr,
 	Z_Construct_UClass_AInteractiveActorBase_Statics::PropPointers,
-	InterfaceParams,
+	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
 	0,
 	UE_ARRAY_COUNT(Z_Construct_UClass_AInteractiveActorBase_Statics::PropPointers),
-	UE_ARRAY_COUNT(InterfaceParams),
+	0,
 	0x009001A4u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AInteractiveActorBase_Statics::Class_MetaDataParams), Z_Construct_UClass_AInteractiveActorBase_Statics::Class_MetaDataParams)
 };
@@ -134,14 +129,14 @@ AInteractiveActorBase::~AInteractiveActorBase() {}
 // ********** End Class AInteractiveActorBase ******************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_workspace_DTProject_Source_DTProject_Actor_InteractiveActorBase_h__Script_DTProject_Statics
+struct Z_CompiledInDeferFile_FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_InteractiveActorBase_h__Script_DTProject_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AInteractiveActorBase, AInteractiveActorBase::StaticClass, TEXT("AInteractiveActorBase"), &Z_Registration_Info_UClass_AInteractiveActorBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AInteractiveActorBase), 445140527U) },
+		{ Z_Construct_UClass_AInteractiveActorBase, AInteractiveActorBase::StaticClass, TEXT("AInteractiveActorBase"), &Z_Registration_Info_UClass_AInteractiveActorBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AInteractiveActorBase), 80487934U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_workspace_DTProject_Source_DTProject_Actor_InteractiveActorBase_h__Script_DTProject_1251520378(TEXT("/Script/DTProject"),
-	Z_CompiledInDeferFile_FID_workspace_DTProject_Source_DTProject_Actor_InteractiveActorBase_h__Script_DTProject_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_workspace_DTProject_Source_DTProject_Actor_InteractiveActorBase_h__Script_DTProject_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_InteractiveActorBase_h__Script_DTProject_3777165883(TEXT("/Script/DTProject"),
+	Z_CompiledInDeferFile_FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_InteractiveActorBase_h__Script_DTProject_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_InteractiveActorBase_h__Script_DTProject_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************

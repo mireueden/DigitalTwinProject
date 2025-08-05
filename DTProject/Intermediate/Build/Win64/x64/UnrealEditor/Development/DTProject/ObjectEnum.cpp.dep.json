@@ -1,13 +1,13 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\workspace\\dtproject\\source\\dtproject\\actor\\objectenum.cpp",
+        "Source": "d:\\workspace\\digitaltwinproject\\dtproject\\source\\dtproject\\actor\\objectenum.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\workspace\\dtproject\\intermediate\\build\\win64\\x64\\dtprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "PCH": "d:\\workspace\\digitaltwinproject\\dtproject\\intermediate\\build\\win64\\x64\\dtprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
         "Includes": [
-            "d:\\workspace\\dtproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dtproject\\definitions.dtproject.h",
-            "d:\\workspace\\dtproject\\source\\dtproject\\actor\\objectenum.h",
-            "d:\\workspace\\dtproject\\intermediate\\build\\win64\\unrealeditor\\inc\\dtproject\\uht\\objectenum.generated.h"
+            "d:\\workspace\\digitaltwinproject\\dtproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dtproject\\definitions.dtproject.h",
+            "d:\\workspace\\digitaltwinproject\\dtproject\\source\\dtproject\\actor\\objectenum.h",
+            "d:\\workspace\\digitaltwinproject\\dtproject\\intermediate\\build\\win64\\unrealeditor\\inc\\dtproject\\uht\\objectenum.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

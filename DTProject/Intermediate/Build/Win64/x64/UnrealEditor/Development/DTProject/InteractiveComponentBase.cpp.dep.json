@@ -1,17 +1,27 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\workspace\\dtproject\\source\\dtproject\\actor\\interactivecomponentbase.cpp",
+        "Source": "d:\\workspace\\digitaltwinproject\\dtproject\\source\\dtproject\\actor\\interactivecomponentbase.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\workspace\\dtproject\\intermediate\\build\\win64\\x64\\dtprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "PCH": "d:\\workspace\\digitaltwinproject\\dtproject\\intermediate\\build\\win64\\x64\\dtprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
         "Includes": [
-            "d:\\workspace\\dtproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dtproject\\definitions.dtproject.h",
-            "d:\\workspace\\dtproject\\source\\dtproject\\actor\\interactivecomponentbase.h",
-            "d:\\workspace\\dtproject\\intermediate\\build\\win64\\unrealeditor\\inc\\dtproject\\uht\\interactivecomponentbase.generated.h",
-            "d:\\workspace\\dtproject\\source\\dtproject\\actor\\objectenum.h",
-            "d:\\workspace\\dtproject\\intermediate\\build\\win64\\unrealeditor\\inc\\dtproject\\uht\\objectenum.generated.h",
-            "d:\\workspace\\dtproject\\source\\dtproject\\actor\\interactiveactorinterface.h",
-            "d:\\workspace\\dtproject\\intermediate\\build\\win64\\unrealeditor\\inc\\dtproject\\uht\\interactiveactorinterface.generated.h"
+            "d:\\workspace\\digitaltwinproject\\dtproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dtproject\\definitions.dtproject.h",
+            "d:\\workspace\\digitaltwinproject\\dtproject\\source\\dtproject\\actor\\interactivecomponentbase.h",
+            "d:\\workspace\\digitaltwinproject\\dtproject\\intermediate\\build\\win64\\unrealeditor\\inc\\dtproject\\uht\\interactivecomponentbase.generated.h",
+            "d:\\workspace\\digitaltwinproject\\dtproject\\source\\dtproject\\actor\\objectenum.h",
+            "d:\\workspace\\digitaltwinproject\\dtproject\\intermediate\\build\\win64\\unrealeditor\\inc\\dtproject\\uht\\objectenum.generated.h",
+            "d:\\workspace\\digitaltwinproject\\dtproject\\source\\dtproject\\data\\objectdataasset.h",
+            "d:\\workspace\\digitaltwinproject\\dtproject\\intermediate\\build\\win64\\unrealeditor\\inc\\dtproject\\uht\\objectdataasset.generated.h",
+            "d:\\workspace\\digitaltwinproject\\dtproject\\source\\dtproject\\data\\objectdata.h",
+            "d:\\epicgames\\ue_5.6\\engine\\source\\runtime\\coreuobject\\public\\uobject\\noexporttypes.h",
+            "d:\\epicgames\\ue_5.6\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "d:\\epicgames\\ue_5.6\\engine\\source\\runtime\\coreuobject\\public\\serialization\\testundeclaredscriptstructobjectreferences.h",
+            "d:\\epicgames\\ue_5.6\\engine\\source\\runtime\\core\\public\\math\\unitconversion.h",
+            "d:\\epicgames\\ue_5.6\\engine\\source\\runtime\\core\\public\\math\\unitconversion.inl",
+            "d:\\epicgames\\ue_5.6\\engine\\source\\runtime\\core\\public\\internationalization\\polyglottextdata.h",
+            "d:\\workspace\\digitaltwinproject\\dtproject\\intermediate\\build\\win64\\unrealeditor\\inc\\dtproject\\uht\\objectdata.generated.h",
+            "d:\\workspace\\digitaltwinproject\\dtproject\\source\\dtproject\\actor\\interactiveactorinterface.h",
+            "d:\\workspace\\digitaltwinproject\\dtproject\\intermediate\\build\\win64\\unrealeditor\\inc\\dtproject\\uht\\interactiveactorinterface.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

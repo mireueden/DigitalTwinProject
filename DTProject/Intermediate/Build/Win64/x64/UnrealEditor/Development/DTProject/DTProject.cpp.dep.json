@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\workspace\\dtproject\\source\\dtproject\\dtproject.cpp",
+        "Source": "d:\\workspace\\digitaltwinproject\\dtproject\\source\\dtproject\\dtproject.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\workspace\\dtproject\\intermediate\\build\\win64\\x64\\dtprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "PCH": "d:\\workspace\\digitaltwinproject\\dtproject\\intermediate\\build\\win64\\x64\\dtprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
         "Includes": [
-            "d:\\workspace\\dtproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dtproject\\definitions.dtproject.h",
-            "d:\\workspace\\dtproject\\source\\dtproject\\dtproject.h"
+            "d:\\workspace\\digitaltwinproject\\dtproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dtproject\\definitions.dtproject.h",
+            "d:\\workspace\\digitaltwinproject\\dtproject\\source\\dtproject\\dtproject.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

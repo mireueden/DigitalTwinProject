@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class AInteractiveActorBase ****************************************************
 DTPROJECT_API UClass* Z_Construct_UClass_AInteractiveActorBase_NoRegister();
 
-#define FID_workspace_DTProject_Source_DTProject_Actor_InteractiveActorBase_h_18_INCLASS_NO_PURE_DECLS \
+#define FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_InteractiveActorBase_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAInteractiveActorBase(); \
 	friend struct Z_Construct_UClass_AInteractiveActorBase_Statics; \
@@ -27,11 +27,10 @@ private: \
 	friend DTPROJECT_API UClass* Z_Construct_UClass_AInteractiveActorBase_NoRegister(); \
 public: \
 	DECLARE_CLASS2(AInteractiveActorBase, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/DTProject"), Z_Construct_UClass_AInteractiveActorBase_NoRegister) \
-	DECLARE_SERIALIZER(AInteractiveActorBase) \
-	virtual UObject* _getUObject() const override { return const_cast<AInteractiveActorBase*>(this); }
+	DECLARE_SERIALIZER(AInteractiveActorBase)
 
 
-#define FID_workspace_DTProject_Source_DTProject_Actor_InteractiveActorBase_h_18_ENHANCED_CONSTRUCTORS \
+#define FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_InteractiveActorBase_h_18_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AInteractiveActorBase(AInteractiveActorBase&&) = delete; \
 	AInteractiveActorBase(const AInteractiveActorBase&) = delete; \
@@ -41,12 +40,12 @@ public: \
 	NO_API virtual ~AInteractiveActorBase();
 
 
-#define FID_workspace_DTProject_Source_DTProject_Actor_InteractiveActorBase_h_15_PROLOG
-#define FID_workspace_DTProject_Source_DTProject_Actor_InteractiveActorBase_h_18_GENERATED_BODY \
+#define FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_InteractiveActorBase_h_15_PROLOG
+#define FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_InteractiveActorBase_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_workspace_DTProject_Source_DTProject_Actor_InteractiveActorBase_h_18_INCLASS_NO_PURE_DECLS \
-	FID_workspace_DTProject_Source_DTProject_Actor_InteractiveActorBase_h_18_ENHANCED_CONSTRUCTORS \
+	FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_InteractiveActorBase_h_18_INCLASS_NO_PURE_DECLS \
+	FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_InteractiveActorBase_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -56,6 +55,6 @@ class AInteractiveActorBase;
 // ********** End Class AInteractiveActorBase ******************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_workspace_DTProject_Source_DTProject_Actor_InteractiveActorBase_h
+#define CURRENT_FILE_ID FID_workspace_DigitalTwinProject_DTProject_Source_DTProject_Actor_InteractiveActorBase_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
