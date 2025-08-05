@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"D:\\workspace\\DigitalTwinProject\\DTProject\\Source\\DTProject\\DTProject.Build.cs",
-		"D:\\workspace\\DigitalTwinProject\\DTProject\\Source\\DTProject.Target.cs",
-		"D:\\workspace\\DigitalTwinProject\\DTProject\\Source\\DTProjectEditor.Target.cs"
-	],
-	"EngineVersion": "5.6.0"
-}
