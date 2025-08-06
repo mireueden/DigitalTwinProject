@@ -1,0 +1,428 @@
+﻿Log file open, 08/06/25 09:17:10
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=7804)
+LogWindows: Custom abort handler registered for crash reporting.
+LogInit: Display: Running engine for game: DigitalTwinProject
+LogCore: UTS: Unreal Trace Server launched successfully
+LogTrace: Initializing trace...
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogTrace: Display: Control listening on port 32859
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.6-CL-43139311"
+LogCsvProfiler: Display: Metadata set : engineversion="5.6.0-43139311+++UE5+Release-5.6"
+LogCsvProfiler: Display: Metadata set : os="Windows 10 (22H2) [10.0.19045.6093] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i7-10700K CPU @ 3.80GHz"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : commandline="" D:\workspace\DigitalTwinProject\DTProject\DigitalTwinProject.uproject""
+LogCsvProfiler: Display: Metadata set : loginid="b6840eb447b83a89e603afa59b446f9e"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogStats: Stats thread started at 0.262489
+LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-CAD94FE84B7414A7DC1555A5F7B179E7
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [../../../../../workspace/DigitalTwinProject/DTProject/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogAudio: Display: Pre-Initializing Audio Device Manager...
+LogAudio: Display: AudioInfo: 'OPUS' Registered
+LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+LogAudio: Display: AudioInfo: 'OGG' Registered
+LogAudio: Display: AudioInfo: 'ADPCM' Registered
+LogAudio: Display: AudioInfo: 'PCM' Registered
+LogAudio: Display: AudioInfo: 'BINKA' Registered
+LogAudio: Display: AudioInfo: 'RADA' Registered
+LogAudio: Display: Audio Device Manager Pre-Initialized
+LogPluginManager: Looking for build plugins target receipt
+LogPluginManager: Unable to find target receipt in path: ../../../../../workspace/DigitalTwinProject/DTProject/Binaries/Win64/*.target
+LogAssetRegistry: Display: PlatformFileJournal is not available on volume 'D:' of project directory 'D:/workspace/DigitalTwinProject/DTProject/', so AssetDiscovery cache will not be read or written. Unavailability reason:
+	NTFS Journal is not active for volume 'D:'. Launch cmd.exe as admin and run command `fsutil usn createJournal D: m=<SizeInBytes>`. Recommended <SizeInBytes> is 0x40000000 (1GB).
+LogConfig: Display: Loading Mac ini files took 0.06 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.06 seconds
+LogConfig: Display: Loading Android ini files took 0.06 seconds
+LogConfig: Display: Loading IOS ini files took 0.07 seconds
+LogConfig: Display: Loading Unix ini files took 0.07 seconds
+LogConfig: Display: Loading TVOS ini files took 0.07 seconds
+LogConfig: Display: Loading VisionOS ini files took 0.07 seconds
+LogConfig: Display: Loading Windows ini files took 0.07 seconds
+LogConfig: Display: Loading Linux ini files took 0.08 seconds
+LogPluginManager: Found matching target receipt: ../../../Engine/Binaries/Win64/UnrealEditor.target
+LogPluginManager: Looking for enabled plugins target receipt
+LogPluginManager: Unable to find target receipt in path: ../../../../../workspace/DigitalTwinProject/DTProject/Binaries/Win64/*.target
+LogPluginManager: Found matching target receipt: ../../../Engine/Binaries/Win64/UnrealEditor.target
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosInsights
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Mounting Engine plugin CmdLinkServer
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Mounting Engine plugin Fab
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin IoStoreInsights
+LogPluginManager: Mounting Engine plugin MassInsights
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin RenderGraphInsights
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin UbaController
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin AdvancedRenamer
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin EditorDataStorage
+LogPluginManager: Mounting Engine plugin EditorPerformance
+LogPluginManager: Mounting Engine plugin EditorTelemetry
+LogPluginManager: Mounting Engine plugin EditorDataStorageFeatures
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryDataflow
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin LevelSequenceNavigatorBridge
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin LowLevelNetTrace
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin NFORDenoise
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin RuntimeTelemetry
+LogPluginManager: Mounting Engine plugin SequenceNavigator
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin MetaHumanSDK
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin EOSShared
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin ComputeFramework
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyBindingUtils
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin StateTree
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin DeformerGraph
+LogPluginManager: Mounting Engine plugin GameplayInsights
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin TweeningUtils
+LogPluginManager: Mounting Engine plugin RigLogic
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin EngineCameras
+LogPluginManager: Mounting Engine plugin SkeletalMeshModelingTools
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin N10XSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NamingTokens
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin ProjectLauncher
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin ChangelistReview
+LogPluginManager: Mounting Engine plugin ColorGrading
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin EngineAssetDefinitions
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin UMGWidgetPreview
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin Cascade
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin InterchangeAssets
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin NNEDenoiser
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin NNERuntimeORT
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin CameraCalibrationCore
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin CompositeCore
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin PortableObjectFileDataSource
+LogPluginManager: Mounting Engine plugin XInputDevice
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin BaseCharacterFXEditor
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+LogInit: Warning: Incompatible or missing module: DigitalTwinProject
+Running D:/EpicGames/UE_5.6/Engine/Build/BatchFiles/Build.bat Development Win64 -Project="D:/workspace/DigitalTwinProject/DTProject/DigitalTwinProject.uproject" -TargetType=Editor -Progress -NoEngineChanges -NoHotReloadFromIDE
+Build.bat is already running, waiting for existing script to terminate...
+Using bundled DotNet SDK version: 8.0.300 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" Development Win64 -Project="D:/workspace/DigitalTwinProject/DTProject/DigitalTwinProject.uproject" -TargetType=Editor -Progress -NoEngineChanges -NoHotReloadFromIDE
+Log file: C:\Users\admin\AppData\Local\UnrealBuildTool\Log.txt
+Available x64 toolchains (1):
+ * C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207
+    (Family=14.44.35207, FamilyRank=1, Version=14.44.35214, HostArchitecture=x64, ReleaseChannel=Latest, Architecture=x64)
+Visual Studio 2022 compiler version 14.44.35214 is not a preferred version. Please use the latest preferred version 14.38.33130
+Using 'git status' to determine working set for adaptive non-unity build (D:\workspace\DigitalTwinProject).
+Creating makefile for DigitalTwinProjectEditor (command line arguments changed)
+@progress push 5%
+@progress pop
+Building DigitalTwinProjectEditor...
+Using Visual Studio 2022 14.44.35214 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207) and Windows 10.0.26100.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Warning: Visual Studio 2022 compiler is not a preferred version
+[Upgrade]
+[Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+[Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_5
+[Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_6;' in DigitalTwinProjectEditor.Target.cs.
+[Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+[Upgrade]
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+Using Unreal Build Accelerator local executor to run 12 action(s)
+  Storage capacity 40Gb
+---- Starting trace: 250806_091721 ----
+UbaServer - Listening on 0.0.0.0:1345
+------ Building 12 action(s) started ------
+[1/12] Compile [x64] ObjectData.cpp
+[2/12] Compile [x64] InteractiveActorInterface.cpp
+[3/12] Compile [x64] TestActor.cpp
+[4/12] Compile [x64] InteractiveActorBase.cpp
+[5/12] Compile [x64] ObjectDataAsset.cpp
+[6/12] Compile [x64] InterativeCharacter.cpp
+[7/12] Compile [x64] InteractiveComponentBase.cpp
+[8/12] Compile [x64] InfoWidget.cpp
+[9/12] Compile [x64] Module.DigitalTwinProject.gen.cpp
+[10/12] Link [x64] UnrealEditor-DigitalTwinProject.lib
+   D:/workspace/DigitalTwinProject/DTProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/DigitalTwinProject/UnrealEditor-DigitalTwinProject.lib 라이브러리 및 D:/workspace/DigitalTwinProject/DTProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/DigitalTwinProject/UnrealEditor-DigitalTwinProject.exp 개체를 생성하고 있습니다.
+[11/12] Link [x64] UnrealEditor-DigitalTwinProject.dll
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2019: "__declspec(dllimport) private: static struct UE::FieldNotification::IClassDescriptor const & __cdecl UWidget::FFieldNotificationClassDescriptor::GetDescriptor(void)" (__imp_?GetDescriptor@FFieldNotificationClassDescriptor@UWidget@@CAAEBUIClassDescriptor@FieldNotification@UE@@XZ)"public: virtual struct UE::FieldNotification::IClassDescriptor const & __cdecl UWidget::GetFieldNotificationDescriptor(void)const " (?GetFieldNotificationDescriptor@UWidget@@UEBAAEBUIClassDescriptor@FieldNotification@UE@@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호 
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2019: "__declspec(dllimport) class UClass * __cdecl Z_Construct_UClass_UUserWidget_NoRegister(void)" (__imp_?Z_Construct_UClass_UUserWidget_NoRegister@@YAPEAVUClass@@XZ)"void __cdecl `dynamic initializer for 'public: static struct UECodeGen_Private::FClassPropertyParams const Z_Construct_UClass_AInterativeCharacter_Statics::NewProp_WidgetClass''(void)" (??__E?NewProp_WidgetClass@Z_Construct_UClass_AInterativeCharacter_Statics@@2UFClassPropertyParams@UECodeGen_Private@@B@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호 
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2019: "__declspec(dllimport) public: __cdecl UUserWidget::UUserWidget(class FVTableHelper &)" (__imp_??0UUserWidget@@QEAA@AEAVFVTableHelper@@@Z)"public: __cdecl UInfoWidget::UInfoWidget(class FVTableHelper &)" (??0UInfoWidget@@QEAA@AEAVFVTableHelper@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호 
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2019: "__declspec(dllimport) public: virtual __cdecl UUserWidget::~UUserWidget(void)" (__imp_??1UUserWidget@@UEAA@XZ)"public: virtual __cdecl UInfoWidget::~UInfoWidget(void)" (??1UInfoWidget@@UEAA@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호 
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2019: "__declspec(dllimport) public: __cdecl UUserWidget::UUserWidget(class FObjectInitializer const &)" (__imp_??0UUserWidget@@QEAA@AEBVFObjectInitializer@@@Z)"void __cdecl InternalConstructor<class UInfoWidget>(class FObjectInitializer const &)" (??$InternalConstructor@VUInfoWidget@@@@YAXAEBVFObjectInitializer@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호 
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2019: "__declspec(dllimport) protected: static void __cdecl UUserWidget::AddReferencedObjects(class UObject *,class FReferenceCollector &)" (__imp_?AddReferencedObjects@UUserWidget@@KAXPEAVUObject@@AEAVFReferenceCollector@@@Z)"private: static class UClass * __cdecl UInfoWidget::GetPrivateStaticClass(void)" (?GetPrivateStaticClass@UInfoWidget@@CAPEAVUClass@@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호 
+  정의되었으며 잠재적으로 일치할 수 있는 기호에 대한 힌트:
+    "__declspec(dllimport) public: static void __cdecl AActor::AddReferencedObjects(class UObject *,class FReferenceCollector &)" (__imp_?AddReferencedObjects@AActor@@SAXPEAVUObject@@AEAVFReferenceCollector@@@Z)
+    "__declspec(dllimport) public: static void __cdecl UActorComponent::AddReferencedObjects(class UObject *,class FReferenceCollector &)" (__imp_?AddReferencedObjects@UActorComponent@@SAXPEAVUObject@@AEAVFReferenceCollector@@@Z)
+    "__declspec(dllimport) public: static void __cdecl UObject::AddReferencedObjects(class UObject *,class FReferenceCollector &)" (__imp_?AddReferencedObjects@UObject@@SAXPEAV1@AEAVFReferenceCollector@@@Z)
+    "__declspec(dllimport) public: static void __cdecl USceneComponent::AddReferencedObjects(class UObject *,class FReferenceCollector &)" (__imp_?AddReferencedObjects@USceneComponent@@SAXPEAVUObject@@AEAVFReferenceCollector@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2019: "__declspec(dllimport) class UClass * __cdecl Z_Construct_UClass_UImage_NoRegister(void)" (__imp_?Z_Construct_UClass_UImage_NoRegister@@YAPEAVUClass@@XZ)"void __cdecl `dynamic initializer for 'public: static struct UECodeGen_Private::FObjectPropertyParams const Z_Construct_UClass_UInfoWidget_Statics::NewProp_Explanation_Image''(void)" (??__E?NewProp_Explanation_Image@Z_Construct_UClass_UInfoWidget_Statics@@2UFObjectPropertyParams@UECodeGen_Private@@B@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호 
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2019: "__declspec(dllimport) class UClass * __cdecl Z_Construct_UClass_UTextBlock_NoRegister(void)" (__imp_?Z_Construct_UClass_UTextBlock_NoRegister@@YAPEAVUClass@@XZ)"void __cdecl `dynamic initializer for 'public: static struct UECodeGen_Private::FObjectPropertyParams const Z_Construct_UClass_UInfoWidget_Statics::NewProp_ActorName''(void)" (??__E?NewProp_ActorName@Z_Construct_UClass_UInfoWidget_Statics@@2UFObjectPropertyParams@UECodeGen_Private@@B@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호 
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2019: "__declspec(dllimport) class UClass * __cdecl Z_Construct_UClass_UUserWidget(void)" (__imp_?Z_Construct_UClass_UUserWidget@@YAPEAVUClass@@XZ)"void __cdecl `dynamic initializer for 'public: static class UObject * (__cdecl*const * const Z_Construct_UClass_UInfoWidget_Statics::DependentSingletons)(void)''(void)" (??__E?DependentSingletons@Z_Construct_UClass_UInfoWidget_Statics@@2QBQ6APEAVUObject@@XZB@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호 
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual void __cdecl UUserWidget::SetContentForSlot(class FName,class UWidget *)" (?SetContentForSlot@UUserWidget@@UEAAXVFName@@PEAVUWidget@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual class UWidget * __cdecl UUserWidget::GetContentForSlot(class FName)const " (?GetContentForSlot@UUserWidget@@UEBAPEAVUWidget@@VFName@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual void __cdecl UUserWidget::GetSlotNames(class TArray<class FName,class TSizedDefaultAllocator<32> > &)const " (?GetSlotNames@UUserWidget@@UEBAXAEAV?$TArray@VFName@@V?$TSizedDefaultAllocator@$0CA@@@@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual void __cdecl UWidget::BroadcastFieldValueChanged(struct UE::FieldNotification::FFieldId)" (?BroadcastFieldValueChanged@UWidget@@UEAAXUFFieldId@FieldNotification@UE@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual int __cdecl UWidget::RemoveAllFieldValueChangedDelegates(void const *)" (?RemoveAllFieldValueChangedDelegates@UWidget@@UEAAHPEBX@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual int __cdecl UWidget::RemoveAllFieldValueChangedDelegates(struct UE::FieldNotification::FFieldId,void const *)" (?RemoveAllFieldValueChangedDelegates@UWidget@@UEAAHUFFieldId@FieldNotification@UE@@PEBX@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual bool __cdecl UWidget::RemoveFieldValueChangedDelegate(struct UE::FieldNotification::FFieldId,class FDelegateHandle)" (?RemoveFieldValueChangedDelegate@UWidget@@UEAA_NUFFieldId@FieldNotification@UE@@VFDelegateHandle@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual class FDelegateHandle __cdecl UWidget::AddFieldValueChangedDelegate(struct UE::FieldNotification::FFieldId,class TDelegate<void __cdecl(class UObject *,struct UE::FieldNotification::FFieldId),struct FNotThreadSafeNotCheckedDelegateUserPolicy>)" (?AddFieldValueChangedDelegate@UWidget@@UEAA?AVFDelegateHandle@@UFFieldId@FieldNotification@UE@@V?$TDelegate@$$A6AXPEAVUObject@@UFFieldId@FieldNotification@UE@@@ZUFNotThreadSafeNotCheckedDelegateUserPolicy@@@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual void __cdecl UUserWidget::InitializeInputComponent(void)" (?InitializeInputComponent@UUserWidget@@MEAAXXZ)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual void __cdecl UUserWidget::NativeOnMouseCaptureLost(struct FCaptureLostEvent const &)" (?NativeOnMouseCaptureLost@UUserWidget@@MEAAXAEBUFCaptureLostEvent@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual class FCursorReply __cdecl UUserWidget::NativeOnCursorQuery(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnCursorQuery@UUserWidget@@MEAA?AVFCursorReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual class FReply __cdecl UUserWidget::NativeOnTouchFirstMove(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnTouchFirstMove@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual class FReply __cdecl UUserWidget::NativeOnTouchForceChanged(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnTouchForceChanged@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual class FReply __cdecl UUserWidget::NativeOnMotionDetected(struct FGeometry const &,struct FMotionEvent const &)" (?NativeOnMotionDetected@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFMotionEvent@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual class FReply __cdecl UUserWidget::NativeOnTouchEnded(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnTouchEnded@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual class FReply __cdecl UUserWidget::NativeOnTouchMoved(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnTouchMoved@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual class FReply __cdecl UUserWidget::NativeOnTouchStarted(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnTouchStarted@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual class FReply __cdecl UUserWidget::NativeOnTouchGesture(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnTouchGesture@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual void __cdecl UUserWidget::NativeOnDragCancelled(class FDragDropEvent const &,class UDragDropOperation *)" (?NativeOnDragCancelled@UUserWidget@@MEAAXAEBVFDragDropEvent@@PEAVUDragDropOperation@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual bool __cdecl UUserWidget::NativeOnDrop(struct FGeometry const &,class FDragDropEvent const &,class UDragDropOperation *)" (?NativeOnDrop@UUserWidget@@MEAA_NAEBUFGeometry@@AEBVFDragDropEvent@@PEAVUDragDropOperation@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual bool __cdecl UUserWidget::NativeOnDragOver(struct FGeometry const &,class FDragDropEvent const &,class UDragDropOperation *)" (?NativeOnDragOver@UUserWidget@@MEAA_NAEBUFGeometry@@AEBVFDragDropEvent@@PEAVUDragDropOperation@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual void __cdecl UUserWidget::NativeOnDragLeave(class FDragDropEvent const &,class UDragDropOperation *)" (?NativeOnDragLeave@UUserWidget@@MEAAXAEBVFDragDropEvent@@PEAVUDragDropOperation@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual void __cdecl UUserWidget::NativeOnDragEnter(struct FGeometry const &,class FDragDropEvent const &,class UDragDropOperation *)" (?NativeOnDragEnter@UUserWidget@@MEAAXAEBUFGeometry@@AEBVFDragDropEvent@@PEAVUDragDropOperation@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual void __cdecl UUserWidget::NativeOnDragDetected(struct FGeometry const &,struct FPointerEvent const &,class UDragDropOperation * &)" (?NativeOnDragDetected@UUserWidget@@MEAAXAEBUFGeometry@@AEBUFPointerEvent@@AEAPEAVUDragDropOperation@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual class FReply __cdecl UUserWidget::NativeOnMouseButtonDoubleClick(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseButtonDoubleClick@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual class FReply __cdecl UUserWidget::NativeOnMouseWheel(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseWheel@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual void __cdecl UUserWidget::NativeOnMouseLeave(struct FPointerEvent const &)" (?NativeOnMouseLeave@UUserWidget@@MEAAXAEBUFPointerEvent@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual void __cdecl UUserWidget::NativeOnMouseEnter(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseEnter@UUserWidget@@MEAAXAEBUFGeometry@@AEBUFPointerEvent@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual class FReply __cdecl UUserWidget::NativeOnMouseMove(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseMove@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual class FReply __cdecl UUserWidget::NativeOnMouseButtonUp(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseButtonUp@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual class FReply __cdecl UUserWidget::NativeOnPreviewMouseButtonDown(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnPreviewMouseButtonDown@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual class FReply __cdecl UUserWidget::NativeOnMouseButtonDown(struct FGeometry const &,struct FPointerEvent const &)" (?NativeOnMouseButtonDown@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFPointerEvent@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual class FReply __cdecl UUserWidget::NativeOnAnalogValueChanged(struct FGeometry const &,struct FAnalogInputEvent const &)" (?NativeOnAnalogValueChanged@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFAnalogInputEvent@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual class FReply __cdecl UUserWidget::NativeOnKeyUp(struct FGeometry const &,struct FKeyEvent const &)" (?NativeOnKeyUp@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFKeyEvent@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual class FReply __cdecl UUserWidget::NativeOnKeyDown(struct FGeometry const &,struct FKeyEvent const &)" (?NativeOnKeyDown@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFKeyEvent@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual class FReply __cdecl UUserWidget::NativeOnPreviewKeyDown(struct FGeometry const &,struct FKeyEvent const &)" (?NativeOnPreviewKeyDown@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFKeyEvent@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual class FReply __cdecl UUserWidget::NativeOnKeyChar(struct FGeometry const &,struct FCharacterEvent const &)" (?NativeOnKeyChar@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFCharacterEvent@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual class FNavigationReply __cdecl UUserWidget::NativeOnNavigation(struct FGeometry const &,struct FNavigationEvent const &,class FNavigationReply const &)" (?NativeOnNavigation@UUserWidget@@MEAA?AVFNavigationReply@@AEBUFGeometry@@AEBUFNavigationEvent@@AEBV2@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual class FNavigationReply __cdecl UUserWidget::NativeOnNavigation(struct FGeometry const &,struct FNavigationEvent const &)" (?NativeOnNavigation@UUserWidget@@MEAA?AVFNavigationReply@@AEBUFGeometry@@AEBUFNavigationEvent@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual void __cdecl UUserWidget::NativeOnRemovedFromFocusPath(struct FFocusEvent const &)" (?NativeOnRemovedFromFocusPath@UUserWidget@@MEAAXAEBUFFocusEvent@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual void __cdecl UUserWidget::NativeOnAddedToFocusPath(struct FFocusEvent const &)" (?NativeOnAddedToFocusPath@UUserWidget@@MEAAXAEBUFFocusEvent@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual void __cdecl UUserWidget::NativeOnFocusChanging(class FWeakWidgetPath const &,class FWidgetPath const &,struct FFocusEvent const &)" (?NativeOnFocusChanging@UUserWidget@@MEAAXAEBVFWeakWidgetPath@@AEBVFWidgetPath@@AEBUFFocusEvent@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual void __cdecl UUserWidget::NativeOnFocusLost(struct FFocusEvent const &)" (?NativeOnFocusLost@UUserWidget@@MEAAXAEBUFFocusEvent@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual class FReply __cdecl UUserWidget::NativeOnFocusReceived(struct FGeometry const &,struct FFocusEvent const &)" (?NativeOnFocusReceived@UUserWidget@@MEAA?AVFReply@@AEBUFGeometry@@AEBUFFocusEvent@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual bool __cdecl UUserWidget::NativeSupportsKeyboardFocus(void)const " (?NativeSupportsKeyboardFocus@UUserWidget@@MEBA_NXZ)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual bool __cdecl UUserWidget::NativeIsInteractable(void)const " (?NativeIsInteractable@UUserWidget@@MEBA_NXZ)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual int __cdecl UUserWidget::NativePaint(class FPaintArgs const &,struct FGeometry const &,class FSlateRect const &,class FSlateWindowElementList &,int,class FWidgetStyle const &,bool)const " (?NativePaint@UUserWidget@@MEBAHAEBVFPaintArgs@@AEBUFGeometry@@AEBVFSlateRect@@AEAVFSlateWindowElementList@@HAEBVFWidgetStyle@@_N@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual void __cdecl UUserWidget::NativeTick(struct FGeometry const &,float)" (?NativeTick@UUserWidget@@MEAAXAEBUFGeometry@@M@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual void __cdecl UUserWidget::NativeDestruct(void)" (?NativeDestruct@UUserWidget@@MEAAXXZ)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual void __cdecl UUserWidget::NativeConstruct(void)" (?NativeConstruct@UUserWidget@@MEAAXXZ)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual void __cdecl UUserWidget::NativePreConstruct(void)" (?NativePreConstruct@UUserWidget@@MEAAXXZ)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual void __cdecl UUserWidget::NativeOnInitialized(void)" (?NativeOnInitialized@UUserWidget@@MEAAXXZ)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual void __cdecl UUserWidget::OnAnimationFinished_Implementation(class UWidgetAnimation const *)" (?OnAnimationFinished_Implementation@UUserWidget@@MEAAXPEBVUWidgetAnimation@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual void __cdecl UUserWidget::OnAnimationStarted_Implementation(class UWidgetAnimation const *)" (?OnAnimationStarted_Implementation@UUserWidget@@MEAAXPEBVUWidgetAnimation@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual bool __cdecl UUserWidget::Initialize(void)" (?Initialize@UUserWidget@@UEAA_NXZ)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual class TSharedPtr<class SWidget,1> __cdecl UWidget::GetAccessibleWidget(void)const " (?GetAccessibleWidget@UWidget@@MEBA?AV?$TSharedPtr@VSWidget@@$00@@XZ)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual class TSharedRef<class SWidget,1> __cdecl UWidget::RebuildDesignWidget(class TSharedRef<class SWidget,1>)" (?RebuildDesignWidget@UWidget@@MEAA?AV?$TSharedRef@VSWidget@@$00@@V2@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual void __cdecl UUserWidget::OnWidgetRebuilt(void)" (?OnWidgetRebuilt@UUserWidget@@MEAAXXZ)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual class TSharedRef<class SWidget,1> __cdecl UUserWidget::RebuildWidget(void)" (?RebuildWidget@UUserWidget@@MEAA?AV?$TSharedRef@VSWidget@@$00@@XZ)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "protected: virtual void __cdecl UWidget::OnBindingChanged(class FName const &)" (?OnBindingChanged@UWidget@@MEAAXAEBVFName@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual void __cdecl UUserWidget::OnDesignerChanged(struct FDesignerChangedEventArgs const &)" (?OnDesignerChanged@UUserWidget@@UEAAXAEBUFDesignerChangedEventArgs@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual class FText const __cdecl UUserWidget::GetPaletteCategory(void)" (?GetPaletteCategory@UUserWidget@@UEAA?BVFText@@XZ)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual class FString __cdecl UWidget::GetLabelMetadata(void)const " (?GetLabelMetadata@UWidget@@UEBA?AVFString@@XZ)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual void __cdecl UUserWidget::SetDesignerFlags(enum EWidgetDesignFlags)" (?SetDesignerFlags@UUserWidget@@UEAAXW4EWidgetDesignFlags@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual void __cdecl UUserWidget::SynchronizeProperties(void)" (?SynchronizeProperties@UUserWidget@@UEAAXXZ)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual class ULocalPlayer * __cdecl UUserWidget::GetOwningLocalPlayer(void)const " (?GetOwningLocalPlayer@UUserWidget@@UEBAPEAVULocalPlayer@@XZ)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual class APlayerController * __cdecl UUserWidget::GetOwningPlayer(void)const " (?GetOwningPlayer@UUserWidget@@UEBAPEAVAPlayerController@@XZ)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual void __cdecl UWidget::RemoveFromParent(void)" (?RemoveFromParent@UWidget@@UEAAXXZ)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual bool __cdecl UWidget::IsHovered(void)const " (?IsHovered@UWidget@@UEBA_NXZ)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual void __cdecl UUserWidget::SetVisibility(enum ESlateVisibility)" (?SetVisibility@UUserWidget@@UEAAXW4ESlateVisibility@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual void __cdecl UWidget::SetIsEnabled(bool)" (?SetIsEnabled@UWidget@@UEAAX_N@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual void __cdecl UUserWidget::ReleaseSlateResources(bool)" (?ReleaseSlateResources@UUserWidget@@UEAAX_N@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual bool __cdecl UUserWidget::IsAsset(void)const " (?IsAsset@UUserWidget@@UEBA_NXZ)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual class UWorld * __cdecl UUserWidget::GetWorld(void)const " (?GetWorld@UUserWidget@@UEBAPEAVUWorld@@XZ)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual bool __cdecl UVisual::NeedsLoadForServer(void)const " (?NeedsLoadForServer@UVisual@@UEBA_NXZ)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual void __cdecl UUserWidget::PostDuplicate(bool)" (?PostDuplicate@UUserWidget@@UEAAX_N@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual void __cdecl UUserWidget::PostEditChangeProperty(struct FPropertyChangedEvent &)" (?PostEditChangeProperty@UUserWidget@@UEAAXAEAUFPropertyChangedEvent@@@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual void __cdecl UWidget::FinishDestroy(void)" (?FinishDestroy@UWidget@@UEAAXXZ)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual void __cdecl UUserWidget::BeginDestroy(void)" (?BeginDestroy@UUserWidget@@UEAAXXZ)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual void __cdecl UUserWidget::PostLoad(void)" (?PostLoad@UUserWidget@@UEAAXXZ)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual bool __cdecl UWidget::Modify(bool)" (?Modify@UWidget@@UEAA_N_N@Z)
+Module.DigitalTwinProject.gen.cpp.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: virtual void __cdecl UUserWidget::PreSave(class FObjectPreSaveContext)" (?PreSave@UUserWidget@@UEAAXVFObjectPreSaveContext@@@Z)
+D:\workspace\DigitalTwinProject\DTProject\Binaries\Win64\UnrealEditor-DigitalTwinProject.dll : fatal error LNK1120: 91개의 확인할 수 없는 외부 참조입니다.
+Trace written to file C:/Users/admin/AppData/Local/UnrealBuildTool/Log.uba with size 35.1kb
+Total time in Unreal Build Accelerator local executor: 30.16 seconds
+
+Result: Failed (OtherCompilationError)
+Total execution time: 32.41 seconds
+LogInit: Warning: Still incompatible or missing module: DigitalTwinProject
+LogCore: Engine exit requested (reason: EngineExit() was called)
+LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: )...
+LogAudio: Display: Audio Device Manager Shutdown
+LogExit: Preparing to exit.
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogXGEController: Cleaning working directory: C:/Users/admin/AppData/Local/Temp/UnrealXGEWorkingDir/
+LogPakFile: Destroying PakPlatformFile
+LogExit: Exiting.
+Log file closed, 08/06/25 09:18:36
