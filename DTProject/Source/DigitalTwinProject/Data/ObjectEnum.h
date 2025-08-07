@@ -9,8 +9,6 @@ UENUM(BlueprintType)
 enum class EObjectType : uint8
 {
 	None = 0    UMETA(DisplayName = "Undefined"),
-	ABC,
-	DEF,
 
 	DefaultDoor,
 	SidingDoor,

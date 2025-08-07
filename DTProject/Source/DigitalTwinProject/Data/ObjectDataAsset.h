@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Engine/DataAsset.h"
+#include "../Data/ObjectDataInt.h"
 #include "ObjectDataAsset.generated.h"
 
 enum class EObjectType : uint8;
@@ -27,9 +28,9 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite)
 	FText Description;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TMap<EsaveItem, int> ItemCountMap;
-
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite)
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TMap<EValueType, int> ItemValueMap;
 };

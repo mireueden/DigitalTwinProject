@@ -81,3 +81,7 @@ DTProject/Content/ModernHouse/*
 DTProject/Content/MOUT_Civilian/*
 DTProject/Content/Safe_House/*
 DTProject/Content/Scene_Warehouse/*
+
+DTProject/Intermediate/*
+DTProject/DerivedDataCache/*
+DTProject/Binaries/*

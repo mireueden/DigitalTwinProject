@@ -60,14 +60,20 @@ FText UInteractiveComponentBase::GetObjectDescription()
 	return DataAssetInstance->Description;
 }
 
-//TMap<EsaveItem, int> UInteractiveComponentBase::GetItemCountMap()
-//{
-//	return TMap<EsaveItem, int>();
-//	//return DataAssetInstance->ItemCountMap;
-//}
-//
-//TMap<EValueType, int> UInteractiveComponentBase::GetItemValueMap()
-//{
-//	return TMap<EValueType, int>();
-//	//return DataAssetInstance->ItemValueMap;
-//}
+TMap<EsaveItem, int32> UInteractiveComponentBase::GetItemCountMap() const
+{
+	if (DataAssetInstance)
+	{
+		return DataAssetInstance->ItemCountMap;
+	}
+	return TMap<EsaveItem, int32>();
+}
+
+TMap<EValueType, int32> UInteractiveComponentBase::GetItemValueMap() const
+{
+	if (DataAssetInstance)
+	{
+		return DataAssetInstance->ItemValueMap;
+	}
+	return TMap<EValueType, int32>();
+}

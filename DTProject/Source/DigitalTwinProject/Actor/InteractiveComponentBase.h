@@ -46,6 +46,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TSubclassOf<UObjectDataAsset> ObjectDataAsset;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UObjectDataAsset* DataAssetInstance;
 
 public:
@@ -58,10 +59,10 @@ public:
 	UFUNCTION(BlueprintPure, BlueprintCallable, Category = "Inspectable")
 	FText GetObjectDescription();
 
-	//UFUNCTION(BlueprintPure, BlueprintCallable, Category = "Inspectable")
-	//TMap<EsaveItem, int> GetItemCountMap();
+	UFUNCTION(BlueprintPure, Category = "Inspectable")
+	TMap<EsaveItem, int32> GetItemCountMap() const;
 
-	//UFUNCTION(BlueprintPure, BlueprintCallable, Category = "Inspectable")
-	//TMap<EValueType, int> GetItemValueMap();
+	UFUNCTION(BlueprintPure, Category = "Inspectable")
+	TMap<EValueType, int32> GetItemValueMap() const;
 
 };
