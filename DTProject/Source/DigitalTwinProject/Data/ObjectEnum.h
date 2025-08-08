@@ -32,6 +32,9 @@ enum class EObjectType : uint8
 
 	Computer,
 	Workbench,
+
+	WareHousChecker,
+	LightController,
 };
 
 UENUM(BlueprintType)
